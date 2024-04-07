@@ -105,8 +105,8 @@ function App() {
                         Per Page:
                     </label>
                     <input type="number" value={perPage} onChange={e => handlePerPageChange(e.target.value)}/>
-                    <button className="btn btn-primary mx-1" onClick={() => handlePageChange(page - 1)}>Anterior</button>
-                    <button className="btn btn-primary mx-1" onClick={() => handlePageChange(page + 1)}  disabled={page >= totalPages}>Siguiente</button>
+                    <button className="btn btn-primary mx-1" onClick={() => handlePageChange(page - 1)}>Prev</button>
+                    <button className="btn btn-primary mx-1" onClick={() => handlePageChange(page + 1)}  disabled={page >= totalPages}>Next</button>
                 </div>
             </div>
             <table className="table table-bordered ">
