@@ -8,7 +8,7 @@ function App() {
     const [perPage, setPerPage] = useState(2)
     const [magType, setMagType] = useState(['md'])
     const [commentBodies, setCommentBodies] = useState({});
-    const [totalPages, setTotalPages] = useState(0); // Estado para almacenar el total de páginas
+    const [totalPages, setTotalPages] = useState(0);
     const [totalItems, setTotalItems] = useState(0);
 
     const handleCommentBodyChange = (event, earthquakeId) => {
